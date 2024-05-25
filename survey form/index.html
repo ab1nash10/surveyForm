@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Reddit+Mono:wght@200..900&
+      family=Jost:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900
+      display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <form class="container">
+      <header class="supportText mainHeading">Survey Form</header>
+      <p class="supportText mainSupportText">
+        feel free to answer the questions below based on your own experience and
+        opinion. If you are not convenient in answering a particular question
+        <br />
+        please skip it by answering "No". Every answer would be very
+        appreciated. Thank you for your time.
+      </p>
+      <div class="flex gap">
+        <section class="section">
+          <label for="name" class="heading supportText label">Your Name</label>
+          <input
+            type="text"
+            name="name"
+            id=""
+            placeholder="Enter your name"
+            class="input supportText"
+            required
+          />
+          <label for="email" class="label heading supportText"
+            >Your Email Address</label
+          >
+          <input
+            type="email"
+            name="email"
+            id=""
+            placeholder="user@user.com"
+            class="input"
+            required
+          />
+          <label for="name" class="label heading supportText"
+            >Your Phone Number</label
+          >
+          <input
+            type="tel"
+            name="area"
+            id=""
+            placeholder="99999999999"
+            class="input"
+            required
+          />
+          <label for="area" class="area heading supportText label"
+            >Where Do You Live?</label
+          >
+          <select>
+            <option disabled selected>Select</option>
+            <option value="city1">Delhi</option>
+            <option value="city2">Mumbai</option>
+            <option value="city3">Chicago</option>
+            <option value="city">Bhubaneshwar</option>
+            <option value="city">Los Angeles</option>
+          </select>
+
+          <div class="box">
+            <p class="ageText">Age</p>
+            <div style="display: grid; grid-template-columns: repeat(2, 1fr)">
+              <div>
+                <input
+                  type="radio"
+                  id="age15"
+                  name="age"
+                  value="age15"
+                  checked
+                />
+                <label for="age15">15-20</label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  id="age40"
+                  name="age"
+                  value="age40"
+                  checked
+                />
+                <label for="age40">41-50</label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  id="age20"
+                  name="age"
+                  value="age20"
+                  checked
+                />
+                <label for="age20">20-30</label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  id="prefernottosay"
+                  name="age"
+                  value="prefernottosay"
+                  checked
+                />
+                <label for="prefernottosay">Prefer not to say</label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  id="age30"
+                  name="age"
+                  value="age30"
+                  checked
+                />
+                <label for="age30">31-40</label>
+              </div>
+            </div>
+          </div>
+          <div class="level">
+            <p>How would you rate yor proficiency in coding</p>
+            <div class="itemLevel">
+              <input
+                type="radio"
+                name="level"
+                id="beginner"
+                value="beginner"
+              /><label for="beginner" style="padding-left: 10px"
+                >Beginner</label
+              >
+            </div>
+            <div class="itemLevel">
+              <input
+                type="radio"
+                name="level"
+                id="intermediate"
+                value="intermediate"
+              /><label for="intermediate" style="padding-left: 10px"
+                >Intermediate</label
+              >
+            </div>
+            <div class="itemLevel">
+              <input
+                type="radio"
+                name="level"
+                id="advance"
+                value="advance"
+              /><label for="advance" style="padding-left: 10px">Advance</label>
+            </div>
+          </div>
+        </section>
+        <section class="section">
+          <div class="supportText heading" style="margin-top: 10px">
+            <p>Have you ever appeared in any coding contest?</p>
+            <div style="margin: 5px 5px">
+              <input type="radio" name="result" id="yes" />
+              <label for="yes">Yes</label>
+            </div>
+            <div style="margin: 5px 5px">
+              <input type="radio" name="result" id="no" />
+              <label for="no">No</label>
+            </div>
+          </div>
+          <div class="margin">
+            <p class="supportText heading" style="margin-bottom: 5px">
+              Discuss what drives your passion for coding and outline your
+              aspirations in the field
+            </p>
+            <textarea
+              name="content"
+              id="contentAspirations"
+              rows="3"
+              cols="50"
+            ></textarea>
+          </div>
+          <div class="margin">
+            <p class="supportText heading" style="margin-bottom: 5px">
+              What are some of the challenges you face while coding?
+            </p>
+            <textarea
+              name="contentChallenges"
+              id="contentChallenges"
+              rows="3"
+              cols="50"
+            ></textarea>
+          </div>
+          <div class="margin">
+            <p class="supportText heading" style="margin-bottom: 5px">
+              Discuss what drives your passion for coding and outline your
+              aspirations in the field
+            </p>
+            <textarea
+              name="contentDSA"
+              id="contentDSA"
+              rows="3"
+              cols="50"
+            ></textarea>
+          </div>
+          <button class="btn">Submit Form</button>
+        </section>
+      </div>
+    </form>
+  </body>
+</html>

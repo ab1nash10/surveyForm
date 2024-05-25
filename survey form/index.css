@@ -1,0 +1,159 @@
+/* The CSS code you provided sets the styling for various elements in a web page. Here's a breakdown of
+what each part of the code does: */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+    85.2deg,
+    rgba(33, 3, 40, 1) 7.5%,
+    rgba(65, 5, 72, 1) 88.7%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 70%;
+  background-color: white;
+  border-radius: 10px;
+  padding: 60px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.flex {
+  display: flex;
+}
+
+.supportText {
+  text-transform: capitalize;
+}
+.heading {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+
+.gap {
+  gap: 2rem;
+}
+.section {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  margin-bottom: 4px;
+  margin-top: 10px;
+}
+
+.mainHeading {
+  font-weight: 600;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.mainSupportText {
+  margin-bottom: 10px;
+  font-family: "Inter", sans-serif;
+}
+
+.input {
+  padding: 5px;
+  outline: none;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.164);
+  font-family: "Inter", sans-serif;
+}
+
+select {
+  background-color: transparent;
+  padding: 5px;
+  font-family: "Inter", sans-serif;
+  border: 1px solid rgba(0, 0, 0, 0.164);
+  color: #000000a1;
+  border-radius: 4px;
+  outline: none;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+option {
+  background-color: transparent;
+  padding: 5px;
+  font-family: "Inter", sans-serif;
+  border: 1px solid rgba(0, 0, 0, 0.164);
+  color: #000000a1;
+}
+.box {
+  margin-top: 10px;
+  border: 1px solid black;
+  padding: 20px;
+  position: relative;
+}
+
+.ageText {
+  position: absolute;
+  top: -10px;
+  z-index: 2;
+  background-color: white;
+}
+
+.level {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.itemLevel {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.margin {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+textarea {
+  outline: none;
+  padding: 5px;
+  font-family: "Inter", sans-serif;
+  border: 1px solid rgba(0, 0, 0, 0.164);
+  color: #000000a1;
+  width: 100%;
+}
+
+.btn {
+  padding: 10px;
+  width: 100%;
+  background-image: linear-gradient(
+    85.2deg,
+    rgba(33, 3, 40, 1) 7.5%,
+    rgba(65, 5, 72, 1) 88.7%
+  );
+  border-radius: 5px;
+  outline: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  opacity: 0.8;
+}
